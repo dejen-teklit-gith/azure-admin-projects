@@ -1,39 +1,39 @@
-# 📊 Azure Monitoring and Maintenance
+# 🌐 Azure Virtual Networking
 
-This project focuses on monitoring, logging, and maintaining Azure resources.
+This project covers secure and efficient network configurations in Azure.
 
 ## 🎯 Objectives
 
-- Configure **Azure Monitor**
-- Set up **alerts and metrics**
-- Implement **Azure Backup and Recovery**
-- Perform **failover** using Site Recovery
+- Configure **Virtual Networks (VNet)** and subnets
+- Establish **VNet Peering**
+- Create **Network Security Groups (NSGs)**
+- Implement **Private Endpoints** and **Service Endpoints**
 
 ---
 
 ## ⚙️ Steps Implemented
 
-1. **Set Up Azure Monitor**
-   - Enabled metrics and log analytics workspace.
+1. **Created VNet and Subnets**
+   - VNet: `VNet-Mosob`
+   - Subnets: `AppSubnet`, `DBSubnet`
 
-2. **Created Alerts**
-   - Alert when VM CPU > 80%  
-   - Configured email notification using Action Group.
+2. **Configured Peering**
+   - Peered `VNet-Mosob` with another resource VNet.
 
-3. **Configured Backup**
-   - Created Recovery Services Vault  
-   - Set daily backup policy for VMs
+3. **Created NSG**
+   - Allowed inbound HTTP/HTTPS  
+   - Denied all other inbound traffic
 
-4. **Tested Site Recovery**
-   - Configured failover to secondary region.
+4. **Set up Private Endpoints**
+   - Connected to Storage Account securely.
 
 ---
 
 ## 🧾 Outcome
 
-✅ Full visibility into resource health  
-✅ Automated alerts and backup recovery  
-✅ High availability with Site Recovery
+✅ Isolated and secure network configuration  
+✅ Controlled access with NSGs  
+✅ Fast and private PaaS connections
 
 ---
 

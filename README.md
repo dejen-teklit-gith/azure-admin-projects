@@ -36,5 +36,4 @@ Each project demonstrates real-world Azure operations — from managing identiti
 **Dejen Teklit**  
 💼 [LinkedIn Profile](https://linkedin.com/in/dejen-teklit)  
 💻 [GitHub](https://github.com/dejen-teklit-gith)  
-📧 dejen@dejenteklitoutlook.onmicrosoft.com
 
